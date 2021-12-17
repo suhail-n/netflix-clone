@@ -1,4 +1,4 @@
-# Netflix CLone
+# Netflix Clone
 
 > A clone of the netflix homepage
 
