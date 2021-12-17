@@ -18,21 +18,23 @@
   z-index: -1;
 } */
 .box-a {
-  width: 100%;
+  width: 100vw;
   /* height: 90vh; */
   height: 100vh;
   /* margin-bottom: -3rem; */
-  /* background: url("../img/netflix-bg.jpeg") no-repeat center center/cover; */
-  /* background: url("../img/netflix-bg.jpeg") no-repeat center center/cover;
-  background-size: cover; */
+  background: url("../img/netflix-bg.jpeg") no-repeat center center/cover;
+  background-size: cover;
+  position: relative;
 }
 .box-a img {
   position: absolute;
   /* z-index: 10; */
   height: 100%;
+  /* overflow: hidden; */
   /* height: auto; */
-  width: 100%;
-  min-width: 1660px;
+  /* width: 100%; */
+  /* width: auto; */
+  /* min-width: 1660px; */
   /* object-fit: contain; */
   top: 0;
   bottom: 0;
