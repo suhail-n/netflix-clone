@@ -1,0 +1,83 @@
+.box:not(.box-a) {
+  border-bottom: 8px solid #222;
+  width: 100%;
+  /* margin: 3rem; */
+  /* margin: 3rem auto; */
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.box-a {
+  border-bottom: 8px solid #fff;
+  z-index: -1;
+}
+.box-a {
+  width: 100%;
+  height: 90vh;
+  background: url("../img/netflix-bg.jpeg") no-repeat center center/cover;
+}
+
+.box-inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.box-a::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 95%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 100px 50px 200px -30px #000000,
+    inset -100px -50px 200px -30px #000000;
+  box-shadow: inset 100px 100px 200px -30px #000000,
+    inset -100px -100px 200px -30px #000000;
+}
+
+.box-a .box-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-f .card {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+/* .box-background img {
+  width: 100%;
+  min-width: 320px;
+  height: 85%;
+  position: absolute;
+  z-index: -1;
+}
+
+.box .img-gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+} */

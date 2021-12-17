@@ -1,0 +1,32 @@
+.navbar ul {
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 1920px;
+  z-index: 10;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 3.5rem;
+  flex-wrap: nowrap;
+  /* width: 90%;
+  margin: 0 auto; */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-content: center;
+}

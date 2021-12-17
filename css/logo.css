@@ -1,0 +1,35 @@
+.navbar-brand {
+  margin: auto 0;
+}
+.netflix-logo .svg-icon-netflix-logo {
+  fill: var(--color-bg-secondary);
+  line-height: normal;
+}
+
+@media only screen and (min-width: 550px) {
+  .netflix-logo .svg-icon-netflix-logo {
+    width: 6.75rem;
+    height: 2rem;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .netflix-logo .svg-icon-netflix-logo {
+    width: 8.375rem;
+    height: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .netflix-logo .svg-icon-netflix-logo {
+    width: 10.4375rem;
+    height: 2.8125rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .netflix-logo .svg-icon-netflix-logo {
+    width: auto;
+    height: 1.5rem;
+  }
+}

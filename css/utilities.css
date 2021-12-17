@@ -1,0 +1,13 @@
+body {
+  background-color: var(--color-bg-primary);
+}
+
+.text-center {
+  text-align: center;
+}
+/* .text-xl {
+  font-size: 4rem;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+} */

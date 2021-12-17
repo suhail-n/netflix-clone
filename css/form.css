@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.form-body > input {
+  font-size: 1rem;
+  flex: 2;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.form-body button {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.form-subtitle {
+  font-weight: 400;
+  color: var(--color-text-primary);
+}

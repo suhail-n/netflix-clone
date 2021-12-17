@@ -1,0 +1,68 @@
+:root {
+  --accordion-color-bg-primary: #303030;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 815px;
+  color: var(--color-text-primary);
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.625rem;
+  font-weight: 300;
+}
+
+.accordion-header {
+  margin: 0;
+}
+
+.accordion-body {
+  background-color: var(--accordion-color-bg-primary);
+  max-height: 0;
+  transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  border-top: 1px solid black;
+  overflow: hidden;
+}
+
+.accordion-item.open .accordion-body {
+  max-height: 1200px;
+}
+
+.accordion-body-text {
+  padding: 1.2rem;
+}
+.accordion-item {
+  width: 100%;
+}
+
+.accordion-button {
+  background-color: var(--accordion-color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-top: 8px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .accordion {
+    font-size: 1.25rem;
+  }
+  .accordion-button {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .accordion {
+    font-size: 1.125rem;
+  }
+  .accordion-button {
+    font-size: 1.125rem;
+  }
+}
